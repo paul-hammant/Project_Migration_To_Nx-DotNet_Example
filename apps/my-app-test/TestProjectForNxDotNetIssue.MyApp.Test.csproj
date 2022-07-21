@@ -24,7 +24,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\my-app\Workspace.MyApp.csproj" />
+    <ProjectReference Include="..\my-app\TestProjectForNxDotNetIssue.MyApp.csproj" />
   </ItemGroup>
   
   <Target Name="CheckNxModuleBoundaries" BeforeTargets="Build">
