@@ -1,0 +1,28 @@
+{
+  "root": "apps/my-app-test",
+  "projectType": "application",
+  "sourceRoot": "apps/my-app-test",
+  "targets": {
+    "build": {
+      "executor": "@nx-dotnet/core:build",
+      "outputs": ["dist/apps/my-app-test"],
+      "options": {
+        "configuration": "Debug",
+        "noDependencies": true
+      },
+      "configurations": {
+        "production": {
+          "configuration": "Release"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx-dotnet/core:test",
+      "options": {}
+    },
+    "lint": {
+      "executor": "@nx-dotnet/core:format"
+    }
+  },
+  "tags": []
+}
