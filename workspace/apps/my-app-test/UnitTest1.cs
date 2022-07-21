@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Workspace.MyApp.Test;
+namespace TestProjectForNxDotNetIssue;
 
 public class Tests
 {
@@ -12,6 +12,6 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.Pass();
+        Assert.AreEqual("hello", new Class1().hello());
     }
 }
