@@ -1,4 +1,4 @@
-The first commit of this "hello world" project was a 2022 era use of dotnet.exe on the command line for build and test. For that version, `dotnet.exe test` ran all 
+The first commit of this "hello world" repo was a 2022-era use of `dotnet.exe` on the command line for build and test. For that version, `dotnet.exe test` ran all 
 the tests on the command line. The solution and two projects would load into Rider for execution just fine.
 
 The end product of seven or so commits is the same hello world app/test migration to a [Nx](https://nx.dev/) build system and directory structure.  There are still 
