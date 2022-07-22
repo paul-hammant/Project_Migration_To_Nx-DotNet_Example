@@ -22,3 +22,5 @@ npx nx build my-app
 ```
 npx nx test my-app-test
 ```
+
+Add `--skip-nx-cache` to the end of that if teh runner was skipping some you really really wanted to see.
